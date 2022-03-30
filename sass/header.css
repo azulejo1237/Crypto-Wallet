@@ -1,0 +1,14 @@
+.contenedor__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedor__header .logo__header {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=header.css.map */

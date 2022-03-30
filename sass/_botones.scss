@@ -1,0 +1,45 @@
+.contenedor__botones-principales {
+  display: flex;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.boton--registrarse {
+  color: white;
+  background: none;
+  border-radius: 5rem;
+  padding: 0.7rem 1rem;
+  border-color: white;
+  font-size: 1rem;
+}
+.boton--descargar-app {
+  color: white;
+  background: $indigo;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  border: 0;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+.boton--ver-mas {
+  color: white;
+  font-size: 1.2rem;
+  border: 0;
+  background: none;
+  margin-left: 3rem;
+}
+@media (max-width: 800px) {
+  .boton--registrarse {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+}
+@media (max-width: 540px) {
+  .boton--registrarse {
+  font-size: 1rem;
+}
+.boton--ver-mas {
+  font-size: 1rem;
+}
+}
+
