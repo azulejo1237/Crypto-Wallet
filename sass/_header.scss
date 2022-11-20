@@ -2,32 +2,72 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 3rem;
-  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 1.5rem;
   color: white;
   margin: 0 5rem;
+
+  .logo__header {
+    font-size: 2em !important;
+  }
+
+  .logo--link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo__header--img {
+    width: 2em !important;
+  }
+
   .navbar-item {
+    font-size: 1.2em;
     color: gray;
   }
+
+  .navbar-item:hover {
+    font-size: 1.2em;
+    color: white;
+  }
+
   .navbar-item--activado {
     color: white;
   }
+
   .logo__header--img {
     width: 3rem;
     margin-right: 0.5rem;
   }
+
   .navbar__home ul li {
     display: inline-block;
+    margin: 0 2vw;
+    font-size: 1.1em;
+  }
+
+  .boton--registrarse {
+    font-size: 1.2em;
+  }
+
+  .boton--registrarse:hover {
+    color: black;
+    background-color: white;
+  }
+
+}
+
+@media (max-width: 937px) {
+  .contenedor__header {
     margin: 0 2rem;
   }
+
+  .navbar__home ul li {
+    font-size: 1em !important;
+  }
+
 }
+
 @media (max-width: 800px) {
-  .logo__header {
-    font-size: 2rem !important;
-  }
-  .logo__header--img {
-    width: 4rem !important;
-  }
   .contenedor__header {
     display: flex;
     justify-content: center;
@@ -35,26 +75,36 @@
     padding-top: 3rem;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0 0;
   }
+
+  .boton--registrarse {
+    font-size: 1.5em !important;
+  }
+
   .navbar__home {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 3rem;
   }
+
   .navbar__home ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
+
   .navbar__home ul li {
     width: 100%;
     text-align: center;
     display: none;
-    font-size: 2rem;
+    font-size: 2rem !important;
+    margin: 1rem 0 !important;
   }
+
 }
+
 @media (max-width: 320px) {
   .navbar__home {
     display: flex;
@@ -62,6 +112,7 @@
     justify-content: center;
     margin: 0;
   }
+
   .navbar__home ul li {
     width: 100%;
     text-align: center;
